@@ -1,0 +1,72 @@
+We're looking for professionals who are very familiar with the stack we're using.
+
+As this is a Fullstack engineer test, we've broken down the it down into two
+
+distinct parts, server and client:
+
+
+
+﻿Server:
+
+
+
+You should develop an Apollo GraphQL API
+Your GraphQL API should wrap the Star Wars API (https://swapi.dev/)
+Your GraphQL API should have a Query type that resolves all People (https://swapi.dev/api/people/), but only the Person's details (name, height, mass, gender, homeworld).
+The People Query should cater for pagination, you will notice the next property in the response. When given a page number, the respective People page should be returned (i.e. https://swapi.dev/api/people/?page=2)
+Your GraphQL API should have a Query type that resolves (searches for) a particular Person (People) given their name (i.e. https://swapi.dev/api/people/?search=Anakin Skywalker)
+Client:
+
+
+
+You should develop a React Single Page App (SPA)
+Your SPA should consume the above GraphQL API
+Your SPA should have a Home page listing the first page of People as queried from the above GraphQL API.
+Additionally there should be pagination implemented allowing for a particular People page to be Queried when a page number is selected
+When a Person is clicked on, a Detail page outlining the Person's details should be displayed, in a thoughtful (styled) manner.
+The User should be able to navigate back to the Home page to the previously active People page from the Detail page
+
+✅ What are the requirements?
+For this application, you should, at the least, use:
+
+
+
+NodeJS (LTS)
+React (LTS)
+TypeScript
+Centralised state management (Redux/Context API/Recoil)
+You can use a boilerplate of your choice
+Your solution be live and publicly accessible, feel free to use CodeSandbox or similar or any other hosting method
+Your solution should be pushed to a public Github repository
+
+✅ How will you be scored?
+This test we feel allows you to express your resourcefulness with many frontend elements. It is for this reason we have left it pretty open.
+
+Aspects to note:
+
+
+
+A lot of emphasis will be on your familiarity with modern TypeScript React and Node development, tooling and techniques
+There is no specified design from our side - however, aesthetic and experience is important and should be considered accordingly. Feel free to express yourself here.
+Most best-practices and standards should be followed, i.e. file organization, methods, naming conventions, syntax etc.
+Your ability to execute the required task
+
+Are there any other considerations?
+Again, use this test as an opportunity to express yourself. Here are some of the things we use and like - only to keep in mind, of course ?
+
+
+
+We like Git
+We like all the new React things (Hooks, Context, Suspense etc.)
+We believe in quality code
+We write tests
+We always consider responsiveness
+We like CSS-in-JS (think Styled Components)
+We always go above and beyond
+We like all the new GraphQL things (think Prisma, Hasura etc.)
+We value security, strongly
+We like Serverless
+We like Typescript
+
+Closing
+Thank you for taking the time to complete this test. We look forward to your submission. If you have any feedback, please feel free to share it with us. As we are continuously improving our hiring process.
